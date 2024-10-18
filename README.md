@@ -117,7 +117,7 @@ SELECT indicator_name,
             ORDER BY indicator_name
 ```
 
-And it generated this (column names renamed with the panda 'rename' function):<br />
+And it generated this (column names renamed with the pandas 'rename' function):<br />
 |    | Air Quality Indicator   |   No of Occurance |   Average |   Minimum |   Maximum |
 |---:|:------------------------|------------------:|----------:|----------:|----------:|
 |  1 | Fine particles (PM 2.5) |               423 |   7.48511 |       5.7 |      10.9 |
