@@ -28,7 +28,9 @@ def get_average_air_quality():
     )
     write_markdown("The query executed was:")
     write_markdown(executed, True)
-    write_markdown("And the result was (column names renamed with the panda 'rename' function):")
+    write_markdown(
+        "And the result was (column names renamed with the panda 'rename' function):"
+    )
     write_markdown(panda_table.to_markdown(), last_in_group=True)
     return "Query executed successfully"
 
@@ -67,7 +69,9 @@ def get_location_average_air_quality():
         write_markdown(title, header=True)
         write_markdown("The query executed was:")
         write_markdown(executed, True)
-        write_markdown("And the result was (column names renamed with the panda 'rename' function):")
+        write_markdown(
+            "And the result was (column names renamed with the panda 'rename' function):"
+        )
         write_markdown(panda_table.to_markdown(), last_in_group=True)
 
     return "Query executed successfully"
